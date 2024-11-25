@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardHeader{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cardHeader h2{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-Add{
+    background: rgb(6, 51, 82);
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-Add a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-Add:hover{
+    background-color: rgb(14, 179, 110);
+    transform: scale(1.2);
+}
+.cardBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.table thead tr{
+    background-color: #12ddb4;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th, .table td{
+    padding: 15px 15px;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid #000000;
+}
+
+td:nth-child(8) { /* Applies to the second column */
+    border-left: 2px solid rgb(2, 2, 2); /* Set the border style for the left side of the cell */
+    border-right: 2px solid rgb(0, 0, 0);
+}
+.btn{
+    display: flex;
+}
+.edit-btn button{
+    background-color: rgb(7, 125, 155);
+    height: 30px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.edit-btn button:hover{
+    background-color: rgb(3, 228, 209);
+    transform: scale(0.95);
+}
+ button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delete-btn button{
+    background-color:  rgb(7, 125, 155);
+    height: 30px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.delete-btn button:hover{
+    background-color: rgb(3, 228, 209);
+    transform: scale(0.95);
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    background-image: url('white.gif');
+}
+
+
+.cardHeader{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cardHeader h1{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-Add{
+    background: rgb(53, 103, 209);
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-Add a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-Add:hover{
+    background-color: rgb(10, 92, 119);
+    transform: scale(0.9);
+}
+.cardBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.table thead tr{
+    background-color: #029679;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th, .table td{
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid #0a9378;
+}
+
+.btn{
+    display: flex;
+}
+.edit-btn button{
+    background-color: rgb(54, 179, 25);
+    height: 30px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.edit-btn button:hover{
+    background-color: rgb(0, 102, 255);
+    transform: scale(0.95);
+}
+ button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delete-btn button{
+    background-color: rgb(226, 102, 0);
+    height: 30px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.delete-btn button:hover{
+    background-color: rgb(217, 8, 8);
+    transform: scale(0.95);
+}
+
